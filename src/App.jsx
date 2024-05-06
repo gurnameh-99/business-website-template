@@ -1,5 +1,6 @@
 import React from 'react'
 import { 
+  About,
   Billing, 
   Business, 
   CardDeal, 
@@ -29,13 +30,11 @@ const App = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats/>
-          <Business/>
           <Billing/>
-          <CardDeal/>
           <Testimonials/>
-          <Clients/>
           <CTA/>
-          <Footer/>     
+          <About/>
+          <Footer/>
         </div>
       </div>
     </div>

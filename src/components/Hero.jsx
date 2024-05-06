@@ -13,25 +13,25 @@ const Hero = () => {
             className='w-[32px] h-[32px]'
           />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className='text-white'>20%</span> Discount For {" "}
-            <span className='text-white'>1 Month</span> Account
+            <span className='text-white'>10%</span> Discount on your {" "}
+            <span className='text-white'>1st</span> Booking
           </p>
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
-            The Next <br className='sm:block hidden'/> {" "}
-            <span className='text-gradient'>Generation</span> {" "}
+            Where Your <br className='sm:block hidden'/> {" "}
+            <span className='text-gradient'>Sky-High</span> {" "}
           </h1>
           <div className='ss:flex hidden md:mr-4 mr-0'>
             <GetStarted/>
           </div>
         </div>
         <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full'>
-          Payment Method.
+          Adventures Begin!
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
-        We examine annual percentage rates, annual fees.  
+        Our team of experts employs a refined strategy to pinpoint the most affordable and dependable flights tailored to your preferences.
+        We carefully analyze flight prices and additional charges to ensure you get the best value for your travel.  
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
